@@ -1,5 +1,5 @@
 # com-chilipeppr-workspace-tinyg
-This is a workspace for ChiliPeppr's Hardware Fiddle. It is geared towards CNC machines using TinyG.
+The minimal tablet workspace for TinyG which is a lightweight version of the TinyG workspace. Buttons are larger for touch screens, no 3D viewer, 2 column layout, and minimal add-on widgets.
 
 ![alt text](screenshot.png "Screenshot")
 
@@ -13,7 +13,7 @@ not conflict with other ChiliPeppr objects.
 | -------------         | ------------- | 
 | ID                    | com-chilipeppr-workspace-tinyg |
 | Name                  | Workspace / TinyG Tablet |
-| Description           | This is a workspace for ChiliPeppr's Hardware Fiddle. It is geared towards CNC machines using TinyG. |
+| Description           | The minimal tablet workspace for TinyG which is a lightweight version of the TinyG workspace. Buttons are larger for touch screens, no 3D viewer, 2 column layout, and minimal add-on widgets. |
 | chilipeppr.load() URL | http://raw.githubusercontent.com/chilipeppr/workspace-tinygtablet/master/auto-generated-workspace.html |
 | Edit URL              | http://ide.c9.io/chilipeppr/workspace-tinygtablet |
 | Github URL            | http://github.com/chilipeppr/workspace-tinygtablet |
@@ -135,7 +135,7 @@ The table below shows, in order, the methods and properties inside the workspace
           </tr>
       </thead>
       <tbody>
-      <tr valign="top"><td>id</td><td>string</td><td>"com-chilipeppr-workspace-tinyg"<br><br>The ID of the widget. You must define this and make it unique.</td></tr><tr valign="top"><td>name</td><td>string</td><td>"Workspace / TinyG Tablet"</td></tr><tr valign="top"><td>desc</td><td>string</td><td>"This is a workspace for ChiliPeppr's Hardware Fiddle. It is geared towards CNC machines using TinyG."</td></tr><tr valign="top"><td>url</td><td>string</td><td>"http://raw.githubusercontent.com/chilipeppr/workspace-tinygtablet/master/auto-generated-workspace.html"</td></tr><tr valign="top"><td>fiddleurl</td><td>string</td><td>"http://ide.c9.io/chilipeppr/workspace-tinygtablet"</td></tr><tr valign="top"><td>githuburl</td><td>string</td><td>"http://github.com/chilipeppr/workspace-tinygtablet"</td></tr><tr valign="top"><td>testurl</td><td>string</td><td>"http://workspace-tinygtablet-chilipeppr.c9users.io/workspace.html"</td></tr><tr valign="top"><td>foreignSubscribe</td><td>object</td><td>Please see docs above.</td></tr><tr valign="top"><td>foreignPublish</td><td>object</td><td>Please see docs above.</td></tr><tr valign="top"><td>widgetConsole</td><td>object</td><td>Contains reference to the Console widget object. Hang onto the reference
+      <tr valign="top"><td>id</td><td>string</td><td>"com-chilipeppr-workspace-tinyg"<br><br>The ID of the widget. You must define this and make it unique.</td></tr><tr valign="top"><td>name</td><td>string</td><td>"Workspace / TinyG Tablet"</td></tr><tr valign="top"><td>desc</td><td>string</td><td>"The minimal tablet workspace for TinyG which is a lightweight version of the TinyG workspace. Buttons are larger for touch screens, no 3D viewer, 2 column layout, and minimal add-on widgets."</td></tr><tr valign="top"><td>url</td><td>string</td><td>"http://raw.githubusercontent.com/chilipeppr/workspace-tinygtablet/master/auto-generated-workspace.html"</td></tr><tr valign="top"><td>fiddleurl</td><td>string</td><td>"http://ide.c9.io/chilipeppr/workspace-tinygtablet"</td></tr><tr valign="top"><td>githuburl</td><td>string</td><td>"http://github.com/chilipeppr/workspace-tinygtablet"</td></tr><tr valign="top"><td>testurl</td><td>string</td><td>"http://workspace-tinygtablet-chilipeppr.c9users.io/workspace.html"</td></tr><tr valign="top"><td>foreignSubscribe</td><td>object</td><td>Please see docs above.</td></tr><tr valign="top"><td>foreignPublish</td><td>object</td><td>Please see docs above.</td></tr><tr valign="top"><td>widgetConsole</td><td>object</td><td>Contains reference to the Console widget object. Hang onto the reference
 so we can resize it when the window resizes because we want it to manually
 resize to fill the height of the browser so it looks clean.</td></tr><tr valign="top"><td>widgetSpjs</td><td>object</td><td>Contains reference to the Serial Port JSON Server object.</td></tr><tr valign="top"><td>init</td><td>function</td><td>function () <br><br>The workspace's init method. It loads the all the widgets contained in the workspace
 and inits them.</td></tr><tr valign="top"><td>getBillboard</td><td>function</td><td>function () <br><br>Returns the billboard HTML, CSS, and Javascript for this Workspace. The billboard
