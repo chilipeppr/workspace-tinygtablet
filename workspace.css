@@ -96,16 +96,18 @@
 #com-chilipeppr-ws-gcode-wrapper .panel-heading {
   padding-bottom:25px;
 }
-.zipwhip-button {
+#com-chilipeppr-ws-gcode-wrapper .btn.zipwhip-button {
     line-height:0px;
-    padding: 1px 2px;
+    /*padding: 1px 2px;*/
+    padding: 6px 10px;
 }
 .zipwhip {
-    background: url('http://www.zipwhip.com/resources/images/favicon.ico') no-repeat top left;
+    background: url('https://www.zipwhip.com/wp-content/uploads/2016/12/cropped-zw-mark-color-1-192x192.png') no-repeat center;
     display: inline-block;
     margin: 1px 0;
     height: 16px;
     width: 16px;
+    padding: 5px 12px;
     /* line-height:0px; */
     background-size: 16px 16px;
     /* -webkit-background-size: 50% 50%; Safari

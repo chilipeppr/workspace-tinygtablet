@@ -74,7 +74,7 @@ cpdefine("inline:com-chilipeppr-workspace-tinyg", ["chilipeppr_ready"], function
             this.loadSpjsWidget();
             
             // Most workspaces will instantiate the Serial Port Console widget
-            this.loadConsoleWidget();
+            // this.loadConsoleWidget();
             
             // This is a huge method that was built from the original jsfiddle workspace
             // we should technically put each widget in its own method for loading
@@ -235,11 +235,13 @@ cpdefine("inline:com-chilipeppr-workspace-tinyg", ["chilipeppr_ready"], function
                 "http://raw.githubusercontent.com/chilipeppr/widget-zipwhip/master/auto-generated-widget.html",
                 function() {
                     require(["inline:com-chilipeppr-elem-zipwhip"], function(zipwhip) {
+                        console.log("inside require for zipwhip. good.");
                         zipwhip.init();
                         // setup toggle button
                         var zwBtn = $('#com-chilipeppr-ws-menu .zipwhip-button');
                         var zwDiv = $('#com-chilipeppr-ws-zipwhip');
                         zwBtn.click(function() {
+                            console.log("zwBtn got clicked");
                             if (zwDiv.hasClass("hidden")) {
                                 // unhide
                                 zwDiv.removeClass("hidden");
@@ -253,7 +255,7 @@ cpdefine("inline:com-chilipeppr-workspace-tinyg", ["chilipeppr_ready"], function
                         });
                     });
                 }); //End Zipwhip texting
-
+            console.log("loaded zipwhip widget");
 
  
 
@@ -647,6 +649,7 @@ cpdefine("inline:com-chilipeppr-workspace-tinyg", ["chilipeppr_ready"], function
             
                     function (xyz) {
                         xyz.init();
+                        xyz.toggleWcs();
                     });
                 }
             ); //End XYZ
